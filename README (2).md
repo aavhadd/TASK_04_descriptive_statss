@@ -53,7 +53,7 @@ Below you'll find **step-by-step** instructions **for each dataset**, **for each
   - 
 
 
-## ✅ How to Run
+##  How to Run
 
 ### 📌 World University Rankings
 python pure_python_stats.py cwurData.csv "country"
@@ -72,7 +72,7 @@ python polars_stats.py co-est2023-alldata.csv "STATE"
 
 
 
-## ✅ Short Summary of Findings
+##  Short Summary of Findings
 
 ### 📌 World University Rankings
 - Countries show wide variance in teaching and research scores.
@@ -90,14 +90,14 @@ python polars_stats.py co-est2023-alldata.csv "STATE"
 - Data distribution requires log scale visualization for clarity.
 
 
-## 📊 Bonus: Visualization Notebook
+## Bonus: Visualization Notebook
 
 
 designed to create clear, presentation-ready charts for **all three datasets**:
 
-✅ World University Rankings  
-✅ Global Superstore Orders  
-✅ US Census County Population Estimates
+ World University Rankings  
+ Global Superstore Orders  
+ US Census County Population Estimates
 
 ---
 
@@ -108,57 +108,57 @@ designed to create clear, presentation-ready charts for **all three datasets**:
 3️⃣ Choose which dataset to load (edit the path in the notebook if needed)  
 4️⃣ Run the cells top-to-bottom
 
-✅ All plots will render **inline** in the notebook.  
-✅ You can rerun cells or adjust parameters as you explore.
+ All plots will render **inline** in the notebook.  
+ You can rerun cells or adjust parameters as you explore.
 
 ---
 
 ### 📌 Included Visualizations
 
-#### ✅ 1️⃣ Histograms
+####  1️⃣ Histograms
 - Distribution of numeric columns
 - Optional KDE overlays
 - Highlights skewness and outliers
 
-#### ✅ 2️⃣ Boxplots
+####  2️⃣ Boxplots
 - Compare numeric metrics by category
 - For example:
   - University scores by country
   - Sales or Profit by Category or Country
   - Population estimates by State
 
-#### ✅ 3️⃣ Bar Charts
+####  3️⃣ Bar Charts
 - Top N categories by count or sum
 - For example:
   - Top 10 countries with most universities
   - Top 10 customer countries in Superstore
   - Top states by number of counties
 
-#### ✅ 4️⃣ Correlation Heatmaps
+####  4️⃣ Correlation Heatmaps
 - Numeric feature correlations
 - Helps spot relationships among variables
 
-#### ✅ 5️⃣ Plotly Interactive Charts
+####  5️⃣ Plotly Interactive Charts
 - Interactive histograms and boxplots
 - Click, zoom, and hover tooltips for rich storytelling
 
 ---
 
-### ✅ Example Usage for Each Dataset
+### Example Usage for Each Dataset
 
-#### 📌 World University Rankings
+#### World University Rankings
 - Histogram of research, citations, and teaching scores
 - Boxplot of score by country
 - Top 10 countries by university count
 - Correlation heatmap of scores
 
-#### 📌 Global Superstore Orders
+#### Global Superstore Orders
 - Histograms of Sales and Profit
 - Boxplots of Profit by Category and Country
 - Bar charts for top-selling countries or categories
 - Interactive sales and profit distributions
 
-#### 📌 US Census County Population Estimates
+#### US Census County Population Estimates
 - Histogram of county-level population estimates
 - Boxplot of population by State
 - Bar chart of total state population
@@ -166,7 +166,7 @@ designed to create clear, presentation-ready charts for **all three datasets**:
 
 ---
 
-### ✅ 📌 Purpose
+### Purpose
 
 This notebook is designed to:
 
@@ -177,7 +177,7 @@ This notebook is designed to:
 
 ---
 
-### ✅ Notes
+### Notes
 
 - You can **customize** grouping columns, color palettes, and bin sizes directly in the notebook cells.  
 - Plots can be saved as PNG or shared interactively.  
